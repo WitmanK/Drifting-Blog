@@ -65,7 +65,7 @@ header a {
     font-size: 19px;
     font-weight: 500;
     line-height: 1;
-    letter-spacing: 4px;
+
     margin: 0;
   }
   h3 {
@@ -73,22 +73,5 @@ header a {
     font-weight: 300;
     line-height: 1.5;
     margin: 0;
-  }
-
-  header a {
-    background: #ffffff;
-    text-decoration: none;
-    width: Hug (159px) px;
-    height: Hug (38px) px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    opacity: 0px;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 3px;
-    text-align: center;
-    display: inline-block;
-    margin-top: 32px;
   }
 }
