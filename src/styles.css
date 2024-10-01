@@ -58,6 +58,11 @@ main {
   background-color: #ffffffe3;
   max-width: 1400px;
 }
+
+main img:hover {
+  transform: scale(1.02);
+  transition: transform 0.6s;
+}
 main h3 {
   margin: 0;
   color: #b5b3be;
