@@ -202,26 +202,24 @@ section.secondary {
   text-align: left;
   opacity: 0.85;
 }
+
 .card p {
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   opacity: 0.75;
 }
+
 .btn {
-  width: Fill (306px) px;
-  height: Hug (53px) px;
   padding: 16px 32px 16px 32px;
-  gap: 10px;
   opacity: 0px;
   color: white;
   text-decoration: none;
   background: #f8ae00;
   margin-top: 0px;
-  margin-bottom: 50px;
 }
 
 @media (max-width: 960px) {
