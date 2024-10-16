@@ -3,6 +3,10 @@
   margin: 0 auto;
   font-family: Poppins;
 }
+.text-centre {
+  text-align: center;
+}
+
 body {
   background-color: rgba(0, 0, 0, 0.89);
 }
@@ -59,6 +63,36 @@ main {
   max-width: 1400px;
 }
 
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1400px;
+  padding: 20px 20px;
+  margin-bottom: 10px 10px;
+  grid-gap: 20px;
+}
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  /background-color: orange;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-3-with-1st-narrow {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 60px;
+}
+
 main img:hover {
   transform: scale(1.02);
   transition: transform 0.6s;
@@ -75,9 +109,9 @@ main h3 {
   gap: 0px;
 }
 main h2 {
+  margin: 0;
   font-size: 40px;
   font-weight: 700;
-  margin: 5;
   line-height: 50px;
   width: 536px;
   height: 100px;
@@ -87,7 +121,6 @@ main p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-
   height: 312px;
   gap: 0px;
   opacity: 0.7px;
@@ -133,22 +166,62 @@ footer a {
   text-decoration: none;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 90px;
 }
-.grid-2-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1400px;
-  padding: 20px 20px;
-  margin-bottom: 10px 10px;
-  grid-gap: 20px;
+section.secondary {
+  background-color: #f8f8f852;
+  padding: 5 0 0;
 }
-.grid-3-with-1st-narrow {
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 60px;
+.secondary h2 {
+  color: #f8ae00;
+}
+.card {
+  background-color: #252525;
+  color: white;
+}
+.card-body {
+  padding: 0px 25px;
+}
+.card h4 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #f8ae00;
+}
+
+.card h5 {
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 19.5px;
+  text-align: left;
+  opacity: 0.85;
+}
+.card p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+  opacity: 0.75;
+}
+.btn {
+  width: Fill (306px) px;
+  height: Hug (53px) px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  opacity: 0px;
+  color: white;
+  text-decoration: none;
+  background: #f8ae00;
+  margin-top: 0px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 960px) {
