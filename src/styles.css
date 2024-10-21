@@ -243,6 +243,7 @@ section.secondary {
   header {
     padding: 60px 0px;
   }
+
   h1 {
     font-size: 46px;
   }
@@ -257,12 +258,31 @@ section.secondary {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  .mainParagraph {
+    background-color: yellow;
+    max-width: 800px;
   }
   section {
     padding: 30px;
   }
   .img-responsive {
-    width: 100%;
+    display: block;
+    max-width: 70%;
+  }
+  .mainParagraph p {
+    max-width: 70%;
+    font-size: 12px;
+  }
+  .mainParagraph h3 {
+    font-size: 15px;
+  }
+  .mainParagraph h2 {
+    font-size: 20px;
+    padding-bottom: 15px;
+    height: 20px;
   }
   .embed {
     display: none;
