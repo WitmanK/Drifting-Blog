@@ -244,15 +244,15 @@ section.secondary {
     padding: 60px 0px;
   }
   h1 {
-    font-size: 48px;
+    font-size: 46px;
   }
   h2 {
-    font-size: 12px;
+    font-size: 10px;
 
     margin: 0;
   }
   h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -260,5 +260,11 @@ section.secondary {
   }
   section {
     padding: 30px;
+  }
+  .img-responsive {
+    width: 100%;
+  }
+  .embed {
+    display: none;
   }
 }
