@@ -263,8 +263,8 @@ section.secondary {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
-    max-width: 98.5%;
+    grid-gap: 0px;
+    max-width: 100%;
   }
   .mainParagraph {
     background-color: yellow;
@@ -288,8 +288,9 @@ section.secondary {
     font-size: 26px;
   }
   .embed {
-    max-width: 100%;
+    width: 100%;
   }
+
   .card-body h5 {
     margin-bottom: 0px;
   }
