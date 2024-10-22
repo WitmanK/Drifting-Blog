@@ -178,6 +178,7 @@ section.secondary {
 .embed {
   width: 100%;
   aspect-ratio: 1/1;
+  filter: brightness(82%) contrast(106%);
 }
 .img-responsive {
   width: 100%;
@@ -265,9 +266,11 @@ section.secondary {
     grid-template-columns: 1fr;
     grid-gap: 0px;
     max-width: 100%;
+    margin: 0px;
+    padding: 5px;
   }
   .mainParagraph {
-    background-color: yellow;
+    padding: 10px 10px;
     max-width: 100%;
   }
   section {
@@ -296,5 +299,8 @@ section.secondary {
   }
   .card-body .p-address {
     padding-bottom: 30px;
+  }
+  .footerAbout {
+    padding-bottom: 10px;
   }
 }
