@@ -245,7 +245,7 @@ section.secondary {
   margin-top: 0px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 915px) {
   header {
     padding: 60px 0px;
   }
@@ -282,13 +282,18 @@ section.secondary {
     font-size: 15px;
   }
   .mainParagraph h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .mainParagraph h2 {
-    font-size: 24px;
-    padding-bottom: 15px;
+    font-size: 26px;
   }
   .embed {
-    display: none;
+    max-width: 100%;
+  }
+  .card-body h5 {
+    margin-bottom: 0px;
+  }
+  .card-body .p-address {
+    padding-bottom: 30px;
   }
 }
