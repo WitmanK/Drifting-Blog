@@ -103,8 +103,6 @@ main h3 {
   font-weight: 600;
   line-height: 24px;
   letter-spacing: 5px;
-  width: 536px;
-  height: 24px;
   gap: 0px;
 }
 main h2 {
@@ -112,15 +110,12 @@ main h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
-  width: 536px;
-  height: 100px;
 }
 main p {
   margin-top: 10px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  height: 312px;
   gap: 0px;
   opacity: 0.7px;
 }
@@ -192,6 +187,11 @@ section.secondary {
   background-color: #252525;
   color: white;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 760px;
+  padding-bottom: 40px;
 }
 .card-header.grid {
   grid-gap: 0;
@@ -201,12 +201,18 @@ section.secondary {
   padding: 0px 25px;
   margin: 0;
 }
+
+.card-footer {
+  margin-top: auto;
+}
+
 .card h4 {
   font-family: Poppins;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
   text-align: left;
+  margin-top: 12px;
   margin-bottom: 5px;
   color: #f8ae00;
 }
@@ -258,31 +264,29 @@ section.secondary {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    width: 100%;
-    max-width: 800px;
+    max-width: 98.5%;
   }
   .mainParagraph {
     background-color: yellow;
-    max-width: 800px;
+    max-width: 100%;
   }
   section {
     padding: 30px;
   }
   .img-responsive {
     display: block;
-    max-width: 70%;
+    max-width: 100%;
   }
   .mainParagraph p {
-    max-width: 70%;
-    font-size: 12px;
-  }
-  .mainParagraph h3 {
+    max-width: 100%;
     font-size: 15px;
   }
+  .mainParagraph h3 {
+    font-size: 18px;
+  }
   .mainParagraph h2 {
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 15px;
-    height: 20px;
   }
   .embed {
     display: none;
