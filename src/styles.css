@@ -58,7 +58,7 @@ header a {
   margin-top: 32px;
 }
 main {
-  background-color: #ffffffe3;
+  background-color: rgba(0, 0, 0, 0.89);
   max-width: 1400px;
 }
 
@@ -106,12 +106,15 @@ main h3 {
   gap: 0px;
 }
 main h2 {
+  color: #f8ae00;
   margin: 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 50px;
 }
 main p {
+  color: white;
+  opacity: 90%;
   margin-top: 10px;
   font-size: 16px;
   font-weight: 400;
@@ -169,7 +172,7 @@ section.grid {
   margin-bottom: 0;
 }
 section.secondary {
-  background-color: #f8f8f852;
+  background-color: rgba(0, 0, 0, 0.89);
   padding: 15px 10px 10px;
 }
 .secondary h2 {
