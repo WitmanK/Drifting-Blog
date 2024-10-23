@@ -103,6 +103,7 @@ main h3 {
   line-height: 24px;
   letter-spacing: 5px;
   gap: 0px;
+  padding-top: 20px;
 }
 main h2 {
   color: #f8ae00;
@@ -182,6 +183,11 @@ section.secondary {
   aspect-ratio: 1/1;
   filter: brightness(82%) contrast(106%);
 }
+.grid-3-columns iframe {
+  max-width: 100% !important;
+  min-width: 100% !important;
+  width: 100% !important;
+}
 .img-responsive {
   width: 100%;
   display: block;
@@ -248,7 +254,7 @@ section.secondary {
   margin-top: 0px;
 }
 .instagram-embeds {
-  margin: 30px 1px;
+  margin: 30px 0;
 }
 @media (max-width: 915px) {
   header {
